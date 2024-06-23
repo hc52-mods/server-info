@@ -9,16 +9,16 @@
     "repo": "https://github.com/hc52-mods/server-inforver-preview"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/server-info/icon.png",
-  "environment": "*",
+  "icon": "icon.png",
+  "environment": "client",
   "entrypoints": {
     "client": [
-      "org.hc52mod.serverinfo.client.Server_infoClient"
-    ],
-    "main": [
-      "org.hc52mod.serverinfo.Server_info"
+      "org.hc52mod.serverinfo.Server_Info"
     ]
   },
+  "mixins": [
+    "serverinfo.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.15.11",
     "fabric": "*",
