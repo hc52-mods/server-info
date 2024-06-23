@@ -40,10 +40,19 @@ public class CustomScreen extends Screen {
     }
 
     private void onServerInputChanged(String newInput) {
-        updateServerInfo(newInput);
+        if (!newInput.isEmpty()) {
+            updateServerInfo(newInput);
+        } else {
+            this.serverInfoText = Text.empty();
+        }
     }
 
     private void updateServerInfo(String address) {
+        if (address.isEmpty()) {
+            this.serverInfoText = Text.empty();
+            return;
+        }
+
         this.serverInfoText = Text.literal("Fetching server info...")
                 .setStyle(Style.EMPTY.withColor(Formatting.YELLOW));
         ServerStatusFetcher.fetchServerStatus(address)

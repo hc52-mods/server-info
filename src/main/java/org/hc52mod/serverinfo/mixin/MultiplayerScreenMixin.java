@@ -47,6 +47,6 @@ public abstract class MultiplayerScreenMixin extends Screen {
 
 
     private void openCustomScreen() {
-        MinecraftClient.getInstance().setScreen(new CustomScreen(Text.literal("Custom Screen")));
+        MinecraftClient.getInstance().setScreen(new CustomScreen(Text.literal("Server Status")));
     }
 }

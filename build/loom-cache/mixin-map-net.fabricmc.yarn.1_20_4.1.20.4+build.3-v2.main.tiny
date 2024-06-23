@@ -1,1 +1,3 @@
 v1	named	intermediary
+FIELD	org/hc52mod/serverinfo/mixin/AddServerScreenMixin	Lnet/minecraft/client/gui/widget/TextFieldWidget;	addressField	field_2474
+FIELD	org/hc52mod/serverinfo/mixin/DirectConnectScreenMixin	Lnet/minecraft/client/gui/widget/TextFieldWidget;	addressField	field_2463

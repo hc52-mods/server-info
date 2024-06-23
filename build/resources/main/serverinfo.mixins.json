@@ -4,7 +4,9 @@
   "package": "org.hc52mod.serverinfo.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MultiplayerScreenMixin"
+    "MultiplayerScreenMixin",
+    "AddServerScreenMixin",
+    "DirectConnectScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

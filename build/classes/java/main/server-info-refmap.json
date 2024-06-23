@@ -1,11 +1,27 @@
 {
   "mappings": {
+    "org/hc52mod/serverinfo/mixin/AddServerScreenMixin": {
+      "init": "Lnet/minecraft/class_422;method_25426()V",
+      "render": "Lnet/minecraft/class_422;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "org/hc52mod/serverinfo/mixin/DirectConnectScreenMixin": {
+      "init": "Lnet/minecraft/class_420;method_25426()V",
+      "render": "Lnet/minecraft/class_420;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
     "org/hc52mod/serverinfo/mixin/MultiplayerScreenMixin": {
       "init": "Lnet/minecraft/class_500;method_25426()V"
     }
   },
   "data": {
     "named:intermediary": {
+      "org/hc52mod/serverinfo/mixin/AddServerScreenMixin": {
+        "init": "Lnet/minecraft/class_422;method_25426()V",
+        "render": "Lnet/minecraft/class_422;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "org/hc52mod/serverinfo/mixin/DirectConnectScreenMixin": {
+        "init": "Lnet/minecraft/class_420;method_25426()V",
+        "render": "Lnet/minecraft/class_420;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
       "org/hc52mod/serverinfo/mixin/MultiplayerScreenMixin": {
         "init": "Lnet/minecraft/class_500;method_25426()V"
       }

@@ -3,10 +3,11 @@
   "id": "server-info",
   "version": "1.0-SNAPSHOT",
   "name": "server-info",
-  "description": "",
+  "description": "Add small addons for Server lovers",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/hc52-mods/server-inforver-preview"
+    "repo": "https://github.com/hc52-mods/server-inforver-preview",
+    "issues": "https://github.com/hc52-mods/Issues/issues/new/choose"
   },
   "license": "All-Rights-Reserved",
   "icon": "icon.png",
