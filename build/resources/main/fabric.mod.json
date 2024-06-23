@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "server-info",
+  "version": "1.0-SNAPSHOT",
+  "name": "server-info",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/hc52-mods/server-inforver-preview"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/server-info/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.hc52mod.serverinfo.client.Server_infoClient"
+    ],
+    "main": [
+      "org.hc52mod.serverinfo.Server_info"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
