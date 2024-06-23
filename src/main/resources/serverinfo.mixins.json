@@ -6,7 +6,8 @@
   "client": [
     "MultiplayerScreenMixin",
     "AddServerScreenMixin",
-    "DirectConnectScreenMixin"
+    "DirectConnectScreenMixin",
+    "TitleScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

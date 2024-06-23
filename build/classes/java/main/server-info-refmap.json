@@ -10,6 +10,9 @@
     },
     "org/hc52mod/serverinfo/mixin/MultiplayerScreenMixin": {
       "init": "Lnet/minecraft/class_500;method_25426()V"
+    },
+    "org/hc52mod/serverinfo/mixin/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
     }
   },
   "data": {
@@ -24,6 +27,9 @@
       },
       "org/hc52mod/serverinfo/mixin/MultiplayerScreenMixin": {
         "init": "Lnet/minecraft/class_500;method_25426()V"
+      },
+      "org/hc52mod/serverinfo/mixin/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
       }
     }
   }
